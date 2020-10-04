@@ -10,9 +10,7 @@
 
 > See [here](https://taoensso.com/clojure/backers) if you're interested in helping support my open-source work, thanks! - Peter Taoussanis
 
-# Tower
-
-## Clojure/Script i18n & L10n library
+# Tower: a Clojure/Script i18n & L10n library
 
 The Java platform provides some very capable tools for writing internationalized applications. Unfortunately, they can be... cumbersome. We can do much better in Clojure.
 
@@ -54,7 +52,8 @@ I apologise for the stress/trouble that this might cause, but hope that the pres
 Add the necessary dependency to your project:
 
 ```clojure
-[com.taoensso/tower "3.0.2"]
+Leiningen: [com.taoensso/tower "3.0.2"] ; or
+deps.edn:   com.taoensso/tower {:mvn/version "3.0.2"}
 ```
 
 And setup your namespace imports:
